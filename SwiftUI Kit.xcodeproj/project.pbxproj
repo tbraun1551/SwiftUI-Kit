@@ -60,6 +60,12 @@
 		97E5A1DC24E1A71300246EAD /* SwiftUI_Kit_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 97E5A1D824E1A71200246EAD /* SwiftUI_Kit_Widget.intentdefinition */; };
 		97E5A1DD24E1A71300246EAD /* SwiftUI_Kit_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 97E5A1D824E1A71200246EAD /* SwiftUI_Kit_Widget.intentdefinition */; };
 		97E5A1E024E1A71300246EAD /* SwiftUI Kit WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 97E5A1CF24E1A71200246EAD /* SwiftUI Kit WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97EC510724F3068900C1AA91 /* Support in Resources */ = {isa = PBXBuildFile; fileRef = 97EC510624F3068800C1AA91 /* Support */; };
+		97EC510824F3068900C1AA91 /* Support in Resources */ = {isa = PBXBuildFile; fileRef = 97EC510624F3068800C1AA91 /* Support */; };
+		97EC510924F3068900C1AA91 /* Support in Resources */ = {isa = PBXBuildFile; fileRef = 97EC510624F3068800C1AA91 /* Support */; };
+		97EC510A24F3068900C1AA91 /* Support in Resources */ = {isa = PBXBuildFile; fileRef = 97EC510624F3068800C1AA91 /* Support */; };
+		97EC510B24F3068900C1AA91 /* Support in Resources */ = {isa = PBXBuildFile; fileRef = 97EC510624F3068800C1AA91 /* Support */; };
+		97EC510C24F3068900C1AA91 /* Support in Resources */ = {isa = PBXBuildFile; fileRef = 97EC510624F3068800C1AA91 /* Support */; };
 		F95A4E1F24B9936000697538 /* SwiftUI_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64524B90DD9005C2F44 /* SwiftUI_KitApp.swift */; };
 		F95A4E2024B9937800697538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC64724B90DD9005C2F44 /* ContentView.swift */; };
 		F95A4E2124B9938100697538 /* ShapesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EC66024B912C9005C2F44 /* ShapesGroup.swift */; };
@@ -171,6 +177,7 @@
 		97E5A1D824E1A71200246EAD /* SwiftUI_Kit_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SwiftUI_Kit_Widget.intentdefinition; sourceTree = "<group>"; };
 		97E5A1D924E1A71300246EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97E5A1DB24E1A71300246EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EC510624F3068800C1AA91 /* Support */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Support; sourceTree = "<group>"; };
 		F95A4E0F24B9932000697538 /* SwiftUI Kit Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Kit Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95A4E1A24B9932200697538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95A4E1B24B9932200697538 /* SwiftUI_Kit_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Kit_Mac.entitlements; sourceTree = "<group>"; };
@@ -308,6 +315,7 @@
 				861EC66024B912C9005C2F44 /* ShapesGroup.swift */,
 				861EC65A24B91065005C2F44 /* TextGroup.swift */,
 				F9E8C6F824C7E46C000A2F66 /* MapGroup.swift */,
+				97EC510624F3068800C1AA91 /* Support */,
 			);
 			path = Groupings;
 			sourceTree = "<group>";
@@ -516,6 +524,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97EC510924F3068900C1AA91 /* Support in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +532,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97EC510A24F3068900C1AA91 /* Support in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +540,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97EC510B24F3068900C1AA91 /* Support in Resources */,
 				2DF330BB24BAAD720034C8D0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,6 +549,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97EC510724F3068900C1AA91 /* Support in Resources */,
 				861EC64D24B90DDB005C2F44 /* Preview Assets.xcassets in Resources */,
 				861EC64A24B90DDB005C2F44 /* Assets.xcassets in Resources */,
 			);
@@ -547,6 +559,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97EC510C24F3068900C1AA91 /* Support in Resources */,
 				97E5A1DA24E1A71300246EAD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,6 +568,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97EC510824F3068900C1AA91 /* Support in Resources */,
 				F95A4E2C24B9938500697538 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
